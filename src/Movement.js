@@ -36,7 +36,6 @@ class Movement extends Phaser.Scene {
                 end: 2
             })
         })
-        
         this.player = this.physics.add.sprite(width/2, height/2, 'character', 1).setScale(2)
         this.player.body.setCollideWorldBounds(true)
 
